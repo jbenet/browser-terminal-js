@@ -7,18 +7,17 @@
     "example": "example"
   },
   "dependencies": {
-    "bashful": "~1.8.0",
-    "browser-terminal": "~0.0.2",
-    "duplex": "~1.0.0",
     "duplexer": "~0.1.1",
     "events": "~1.0.1",
-    "ecstatic": "~0.5.3",
     "inherits": "~2.0.1",
     "resumer": "~0.0.0",
-    "through": "~2.3.4",
-    "vm-browserify": "~0.0.4"
+    "through": "~2.3.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "browser-terminal": "~0.0.2",
+    "ecstatic": "~0.5.3",
+    "browserify": "~4.1.2"
+  },
   "scripts": {
     "test": "echo 'no test :(' && exit 1"
   },
