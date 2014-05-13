@@ -1,0 +1,38 @@
+{
+  "name": "browser-terminal-js",
+  "version": "0.0.1",
+  "description": "js console to use with browser-terminal",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "bashful": "~1.8.0",
+    "browser-terminal": "~0.0.2",
+    "duplex": "~1.0.0",
+    "duplexer": "~0.1.1",
+    "events": "~1.0.1",
+    "ecstatic": "~0.5.3",
+    "inherits": "~2.0.1",
+    "resumer": "~0.0.0",
+    "through": "~2.3.4",
+    "vm-browserify": "~0.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo 'no test :(' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/browser-terminal-js.git"
+  },
+  "keywords": [
+    "browser-terminal",
+    "js-console"
+  ],
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jbenet/browser-terminal-js/issues"
+  }
+}
